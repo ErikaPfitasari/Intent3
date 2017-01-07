@@ -12,11 +12,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //TELEPON
         findViewById(R.id.imageViewPhone).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialPhoneNumber("0874567894567");
+                dialPhoneNumber("085733573529");
+            }
+        });
+
+        //SMS
+        findViewById(R.id.imageViewSMS).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                composeSmsMessage("Pesan dari SMK Telkom Malanng");
             }
         });
     }
@@ -27,4 +35,10 @@ public class MainActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager()) != null) startActivity(intent);
     }
 
+    public void composeSmsMessage(String message) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra("sms_body", message);
+        if (intent.resolveActivity(getPackageManager()) != null) startActivity(intent);
+    }
 }
