@@ -4,7 +4,8 @@ Intent3
 ![intent 3 1](https://cloud.githubusercontent.com/assets/22217533/21752366/37f7f018-d609-11e6-841c-880b69d9e738.png)
 ![intent 3 3](https://cloud.githubusercontent.com/assets/22217533/21752368/3bf17108-d609-11e6-9946-a86a7aef9b98.png)
 
-Nama : Erika Prafitasari
-No Urut : 10
-NIS : 4703/1442.070 
-Sekolah : SMK TELKOM MALANG
+Nama : Erika Prafitasari <br>
+Kelas : XI RPL 5<br>
+No Urut : 10 <br>
+NIS : 4703/1442.070 <br> 
+Sekolah : SMK TELKOM MALANG <br>
